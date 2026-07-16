@@ -80,8 +80,6 @@ Your submission must follow all guidelines below.
 
 * If your addon communicates with an external API or third-party service, such as Koromons, this must be clearly disclosed.
 
-* Addons may be updated after publication, but every update must be clearly announced in the addon’s dedicated forum post.
-
 * Your addon must be original. Copied, stolen or “skidded” submissions are not allowed.
 
 * Addons must not contain malicious, deceptive, privacy-invasive or otherwise harmful functionality.
@@ -136,11 +134,32 @@ The Pull Request must include:
 * Clear screenshots or other relevant images showing the addon in use
 * Confirmation that all repository rules and submission requirements have been followed
 
-Pull Requests without the required images may be rejected without review.
+Pull Requests without the required information or images may be rejected without review.
+
+# Updating an Addon
+
+Every addon update requires a **new Pull Request**.
+
+Do not update an approved addon without submitting the changes for review.
+
+The new Pull Request must clearly explain:
+
+* What was changed
+* Why the update was made
+* Whether any new permissions were added
+* Whether any new external APIs or third-party services are used
+* Whether the addon’s behavior, data handling or compatibility changed
+* Any new warnings, limitations or disclaimers
+
+The addon’s `README.md` must be updated whenever the update changes its features, behavior, installation steps, permissions, compatibility or disclosures.
+
+After the update is approved, it must also be announced in the addon’s dedicated Discord forum post.
+
+Updates that are published without review may result in the addon being removed and further action being taken against the author.
 
 # Review Process
 
-Submitted addons are reviewed and tested by the Korone team before publication.
+Submitted addons and updates are reviewed and tested by the Korone team before publication.
 
 The team may request changes before approving a submission.
 
