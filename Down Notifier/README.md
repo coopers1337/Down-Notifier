@@ -1,6 +1,6 @@
 # Down Notifier
 
-A userscript that shows a fullscreen notification whenever **Korone (pekora.zip)** is down.
+A userscript that plays The Cup video whenever **Korone (pekora.zip)** is down.
 
 ## Features
 
