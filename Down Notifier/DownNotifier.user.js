@@ -4,6 +4,7 @@
 // @description  Shows a The Cup video when Korone is down
 // @version      1.0
 // @match        https://www.pekora.zip/*
+// @exclude      https://www.pekora.zip/apisite/*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
