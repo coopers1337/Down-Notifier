@@ -5,6 +5,7 @@
 // @version      1.0
 // @match        https://www.pekora.zip/*
 // @exclude      https://www.pekora.zip/apisite/*
+// @exclude      https://www.pekora.zip/Feeds/GetUserFeed
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
